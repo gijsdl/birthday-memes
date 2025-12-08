@@ -1,6 +1,6 @@
 <?php
 try {
-    $db = new PDO('mysql:host=localhost;dbname=birthday_lianne_photos', 'root', '');
+    $db = new PDO('mysql:host=localhost;dbname=birthday_memes', 'root', '');
 } catch (PDOException $e){
     die('ERROR: ' . $e->getMessage());
 }
